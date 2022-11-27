@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        background-image: url("daniel-roe-lpjb_UMOyx8-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: 1393px 840px;
+    }
+
+    form {
+
+        border: 4px solid #d5e2e8;
+        border-radius: 6px;
+        padding: 40px 40px;
+        text-align: center;
+        margin: 3px 270px;
+        background-image: url("pexels-bri-schneiter-346529.jpg");
+        background-repeat: no-repeat;
+
+        background-size: 1112px 737px;
+
+
+    }
+
+    input {
+        width: 506px;
+        height: 19px;
+        border: 2px solid powderblue;
+        border-radius: 2px;
+        color: blue;
+    }
+
+    #mytime {
+
+        width: 249px;
+        height: 19px;
+        border: 2px solid powderblue;
+        border-radius: 2px;
+    }
+
+    #mydate {
+
+        width: 249px;
+        height: 19px;
+        border: 2px solid powderblue;
+        border-radius: 2px;
+
+    }
+
+    button {
+
+        width: 506px;
+        height: 19px;
+        border: 2px solid powderblue;
+        border-radius: 2px;
+        color: blue;
+
+    }
+</style>
+
+<body>
+
+
+    <div>
+        <form action="#" onsubmit="onsignup(event)">
+            <!--when u click on the submit this onsubmit gets called and gives the values in console-->
+            <div>
+                <h1><i>Desired Vacation</i></h1>
+                <div>
+                    <p><i>book a call slot and set representative will call you within 1hr of selected time</i></p>
+                </div>
+
+            </div>
+
+            <hr style="color: grey;" width="725px">
+
+            <div>
+                <label for="myname" style="color: #b2e5ed;">Name:</label>
+                <br>
+                <input type="text" id="myname" name="username" required>
+
+            </div>
+            <div>
+                <label for="myemail" style="color: #b2e5ed;">Email:</label>
+                <br>
+                <input type="email" id="myemail" name="useremail" required>
+
+            </div>
+            <div>
+                <label for="mynumber" style="color: #b2e5ed;">Phone:</label>
+                <br>
+                <input type="tel" id="mynumber" name="usernumber" title="insert your number here" required>
+
+            </div>
+            <div>
+                <label for="mypassword" style="color: #b2e5ed;">password:</label>
+                <br>
+                <input type="password" id="mypassword" name="userpassword" required>
+
+            </div>
+            <div>
+                <label for="mytime" style="color: #b2e5ed;">Time for call:</label>
+                <br>
+                <input type="date" id="mydate" name="userdate">
+
+                <input type="time" id="mytime" name="usertime">
+
+
+            </div>
+            <br>
+
+
+            <div>
+                <!-- <input type="submit" value="GET A CALL" title="to confirm your ticket"> -->
+                <button>GET A CALL</button>
+            </div>
+
+
+
+
+        </form>
+
+    </div>
+
+    <div>
+
+        <h2 style="text-align: center;"><i>calmness</i></h2>
+        <hr style="color: grey;" width="725px">
+
+    </div><br>
+
+
+    <div>
+
+        <h2 style="text-align: center;"><i>peacefulness</i></h2>
+        <hr style="color: grey;" width="725px">
+
+
+
+    </div><br>
+
+    <div>
+        <h2 style="text-align: center;"><i>Gratitude</i></h2>
+        <hr style="color: grey;" width="725px">
+
+    </div><br>
+
+
+
+    <script src="swap.js">
+
+
+        // function onsignup(event) {
+        //     event.preventDefault();//it prevents the default behaviour of reloading the values to its original state that is blank and keep the user data in form elements
+        //     console.log(event.target.username.value)//it will be printing the value user put in username data of name label
+        //     console.log(event.target.useremail.value)
+        //     console.log(event.target.usernumber.value)
+        //     console.log(event.target.userpassword.value)
+        //     console.log(event.target.userdate.value)
+        //     console.log(event.target.usertime.value)
+
+        // }
+    </script>
+
+
+
+
+
+</body>
+
+</html>
